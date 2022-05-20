@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="http://smartbee.great.ufc.br/">
+    <img src="./images/smartbee.png" width="250px"></a>
+    <p>Análise do padrão bioacústico de uma colmeia de abelhas melíferas africanizadas que perdeu sua rainha subitamente.</p>
+</header>
+<div class="background"></div>
+<div class="container">
+    <div class="queen-state">
+        <div class="title-text">
+            <img src="./images/crown-icon.png" class="icon">
+            <p>Com Rainha</p>
+        </div>
+        <img src="./images/queen_amp.png" class="graph">
+        <img src="./images/queen_spec.png" class="graph">
+        <audio controls class="player">
+            <source src="queen_sample.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="queen-state">
+        <div class="title-text">
+            <img src="./images/crownless-icon.png" class="icon">
+            <p>Sem Rainha</p>
+        </div>
+        <img src="./images/queenless_amp.png" class="graph">
+        <img src="./images/queenless_spec.png" class="graph">
+        <audio controls class="player">
+            <source src="queenless_sample.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</div>
+<footer>
+    <p>Smartbee - Universidade Federal do Ceará - 2022</p>
+</footer>
+</body>
+</html>
